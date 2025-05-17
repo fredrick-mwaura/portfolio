@@ -98,25 +98,7 @@
   </template>
   
   <script setup>
-  const projects = [
-    {
-      title: "Movies Listing App",
-      shortDesc: "On online app, for your favourite movies list.",
-      description: "A modern movie recommendation app for your fovourites movies built with Nuxt 3.",
-      technologies: ["Vue.js", "Nuxt 3", "Vuetify", "Firebase", "Pinia"],
-      image: "/img/movies.png",
-      demoUrl: "https://nyarikimovies.vercel.app",
-      githubUrl: "https://github.com/nyarikikaruma/nyarikimovies"
-    },
-    {
-      title: "Wifeplanet",
-      shortDesc: "An Online Dating App",
-      description: "A modern dating app built for meaningful connections—featuring partner matching, secure chat, video calls, and meetup planning.",
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS", "Laravel"],
-      image: "img/wifeplanet.png",
-      demoUrl: "https://wifeplanet.com",
-      githubUrl: "https://github.com/nyarikikaruma/goatmentor/wifeplanet"
-    },
+  const projects = [    
     {
       title: "News Blog",
       shortDesc: "Content management system",
