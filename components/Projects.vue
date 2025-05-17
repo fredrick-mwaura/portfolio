@@ -114,8 +114,8 @@
       description: "A modern, customizable developer portfolio to showcase past projects made with style and simplicity.",
       technologies: ["Nuxt 3", "Tailwind CSS"],
       image: "img/portfolio.png",
-      demoUrl: "https://nyarikikaruma.vercel.app",
-      githubUrl: "https://github.com/nyarikikaruma/my-portfolio"
+      demoUrl: "https://fredrick-mwauraa.vercel.app/",
+      githubUrl: "https://github.com/fredrick-mwaura/new-portifolio"
     }
   ];
   
