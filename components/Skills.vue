@@ -7,11 +7,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           <!-- Technical Skills -->
           <div>
-            <h3 class="text-2xl font-semibold mb-6 text-indigo-600">Technical Skills</h3>
-            
+            <h3 class="text-2xl font-semibold mb-6 text-indigo-600">Technical Skills</h3>            
             <div>
-          <h3 class="text-2xl font-semibold mb-6 text-indigo-600">Technical Skills</h3>
-
           <div class="space-y-6">
             <div v-for="(skill, index) in technicalSkills" :key="index">
               <div class="flex justify-between mb-1">
