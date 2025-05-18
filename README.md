@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# new-portifolio
+# portfolio
 portifolio website
 =======
 # Nuxt 3 Minimal Starter

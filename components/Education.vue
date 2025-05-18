@@ -45,7 +45,6 @@
                     </div>
                     <h4 class="text-lg font-semibold text-indigo-600 mb-2">Murang'a University of Technology</h4>
                     <p class="text-gray-700">Focused on software development and computer architecture.</p>
-                    <p>Active member of the Repentance and Holliness Students Fellowship.</p>
                 </div>
 
                 <!-- <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-indigo-600">
