@@ -113,19 +113,19 @@
       shortDesc: "Responsive developer portfolio",
       description: "A modern, customizable developer portfolio to showcase past projects made with style and simplicity.",
       technologies: ["Nuxt 3", "Tailwind CSS"],
-      image: "img/portfolio.png",
-      demoUrl: "https://fredrick-mwauraa.vercel.app/",
+      image: "img/portifolio.png",
+      demoUrl: "https://fredric-mwaura.vercel.app/",
       githubUrl: "https://github.com/fredrick-mwaura/new-portifolio"
     }
   ];
   
   const featuredProject = {
-      title: "Movies Listing App",
-      shortDesc: "On online app, for your favourite movies list.",
-      description: "A modern movie recommendation app for your fovourites movies built with Nuxt 3.",
-      technologies: ["Vue.js", "Nuxt 3", "Vuetify", "Firebase", "Pinia"],
-      image: "/img/movies.png",
-      demoUrl: "https://nyarikimovies.vercel.app",
-      githubUrl: "https://github.com/nyarikikaruma/nyarikimovies"
-    }
+    title: "News Blog",
+      shortDesc: "Content management system",
+      description: "A dynamic news blog powered by a custom CMS with integrated maps for location-based reporting and enhanced user engagement",
+      technologies: ["Nuxt 3", "Laravel", "Tailwind CSS"],
+      image: "img/brick.png",
+      demoUrl: "https://brick.news/",
+      githubUrl: "https://github.com/mwangiismuthui/bricknewsweb"
+  }
   </script>

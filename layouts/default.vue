@@ -40,7 +40,7 @@
         </div>
       </header>
       
-      <main class="flex-grow">
+      <main class="flex-grow"  v-if="$slots.default">
         <slot />
       </main>
       

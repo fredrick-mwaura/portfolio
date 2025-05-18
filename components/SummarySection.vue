@@ -73,17 +73,16 @@
   });
   
   // Data for the summary section
-  const projectsCompleted = ref(16);
+  const projectsCompleted = ref(6);
   const yearsExperience = ref(1);
-  const clientsSatisfied = ref(5);
+  const clientsSatisfied = ref(3);
   
   const expertiseAreas = [
     "Frontend Development",
     "Restful APIs",
     "Responsive Web Design",
-    "Vue.js ",
+    "react.js ",
     "Laravel",
-    "laravel",
     "Database Design",
     "API Development",
     "Performance Optimization"

@@ -1,4 +1,3 @@
-<!-- pages/contact.vue -->
 <template>
     <div id='contact' class="py-20">
         <div class="container mx-auto px-4">
@@ -100,7 +99,7 @@
                 </div>
 
                 <div>
-                    <form @submit.prevent="submitForm" class="bg-white p-8 rounded-lg shadow-lg">
+                    <form id="contact-form" @submit.prevent="submitForm" class="bg-white p-8 rounded-lg shadow-lg" ref="formRef">
                         <div class="mb-6">
                             <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
                             <input type="text" id="name" v-model="form.name"
@@ -147,39 +146,56 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue';
+import { ref, reactive, onMounted } from 'vue';
+import emailjs from '@emailjs/browser';
 
-const form = reactive({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-});
+const service_id = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const template_id = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const USER_ID = import.meta.env.VITE_EMAILJS_USER_ID;
 
 const isSubmitting = ref(false);
 const formSubmitted = ref(false);
 
-const submitForm = () => {
-    isSubmitting.value = true;
+// Reference to the form element
+const formRef = ref(null);
 
-    // Simulate form submission delay
-    setTimeout(() => {
-        // In a real application, you would send the form data to a server here
-        console.log('Form submitted:', form);
+// Bind this to v-model on the input fields
+const form = reactive({
+  name: '',
+  email: '',
+  subject: '',
+  message: ''
+});
 
-        // Reset form after submission
-        form.name = '';
-        form.email = '';
-        form.subject = '';
-        form.message = '';
+// Initialize EmailJS
+onMounted(() => {
+  emailjs.init(USER_ID);
+});
 
-        isSubmitting.value = false;
-        formSubmitted.value = true;
+const submitForm = async () => {
+  isSubmitting.value = true;
 
-        // Hide the success message after 5 seconds
-        setTimeout(() => {
-            formSubmitted.value = false;
-        }, 5000);
-    }, 1500);
+  try {
+    const result = await emailjs.send(service_id, template_id, {
+      name: form.name,
+      email: form.email,
+      subject: form.subject,
+      message: form.message,
+      to_email: "fredrickmwaura691@gmail.com"  
+    });
+    console.log('Success:', result);
+
+    form.name = '';
+    form.email = '';
+    form.subject = '';
+    form.message = '';
+
+    formSubmitted.value = true;
+  } catch (error) {
+    console.error('Error:', error);
+    alert('Failed to send message. Please try again later.');
+  } finally {
+    isSubmitting.value = false;
+  }
 };
 </script>
