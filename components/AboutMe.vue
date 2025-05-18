@@ -8,21 +8,15 @@
                     <img src="/assets/img/work.jpg" alt="About Me" class="rounded-lg shadow-lg max-w-full h-auto" />
                 </div>
                 <div class="md:w-1/2 md:pl-12">
-                    <p class="text-lg text-gray-700 mb-6">
-                        I'm a dedicated full-stack developer with over 3 years of hands-on experience, specializing in
-                        JavaScript, Node.js, Vue, PHP, and Laravel. I enjoy building modern, responsive web applications
-                        that are both functional and user-friendly.
-                    </p>
-                    <p class="text-lg text-gray-700 mb-6">
-                        I have a proven track record of designing and developing scalable solutions, from backend APIs
-                        to dynamic front-end interfaces. My approach emphasizes clean code, performance, and best
-                        practices to deliver high-quality digital experiences.
-                    </p>
-                    <p class="text-lg text-gray-700 mb-8">
-                        I'm always eager to learn new technologies and improve my skills. Whether working on web or
-                        mobile platforms, I’m passionate about solving real-world problems through code and delivering
-                        products that make an impact.
-                    </p>
+                <p class="text-lg text-gray-700 mb-6">
+                    I'm a full-stack web developer with over 1 year of professional experience, skilled in JavaScript, Vue.js, React, PHP, and Laravel. I build modern, responsive web applications that are fast, scalable, and user-centric.
+                </p>
+                <p class="text-lg text-gray-700 mb-6">
+                    I've successfully developed full-featured projects using Laravel on the backend and Vue or React on the frontend, often integrating RESTful APIs, authentication systems, and real-time features. My workflow prioritizes clean architecture, performance, and maintainability.
+                </p>
+                <p class="text-lg text-gray-700 mb-8">
+                    I’m committed to continuous learning and growth, and I enjoy tackling real-world problems through efficient, impactful code. From dashboards to dynamic websites, I focus on delivering solutions that drive results.
+                </p>
                     <div class="flex space-x-4">
                         <a href="/pdf/Fredrick mwaura.pdf"
                             class="bg-indigo-600 text-white px-5 py-2 rounded-md font-medium hover:bg-indigo-700 transition" download>Download
