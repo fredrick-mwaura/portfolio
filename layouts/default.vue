@@ -10,8 +10,8 @@
           <!-- Enhanced Logo -->
           <NuxtLink to="/" class="group relative">
             <div class="absolute -inset-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg blur opacity-30 group-hover:opacity-60 transition duration-300"></div>
-            <span class="relative text-3xl font-black bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
-              F.M.
+            <span class="relative text-3xl font-black bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 uppercase">
+              fredrick mwaura
             </span>
           </NuxtLink>
           
@@ -222,12 +222,12 @@
                 All rights reserved.
               </p>
               <div class="flex items-center gap-4 text-sm text-gray-500">
-                <span>Built with</span>
+                <span>Built With</span>
                 <div class="flex items-center gap-1">
                   <svg class="w-4 h-4 text-red-400 animate-pulse" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                   </svg>
-                  <span>& Nuxt.js</span>
+                  <span> By Fredrick Mwaura & Nuxt.js</span>
                 </div>
               </div>
             </div>

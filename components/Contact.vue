@@ -217,9 +217,11 @@
 import { ref, reactive, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
 
-const service_id = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const template_id = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const USER_ID = import.meta.env.VITE_EMAILJS_USER_ID;
+// const service_id = import.meta.env.EMAILJS_SERVICE_ID;
+// const template_id = import.meta.env.EMAILJS_TEMPLATE_ID;
+// const USER_ID = import.meta.env.EMAILJS_USER_ID;
+
+// console.log('crefrw', USER_ID)
 
 const isSubmitting = ref(false);
 const formSubmitted = ref(false);
@@ -235,22 +237,25 @@ const form = reactive({
   message: ''
 });
 
-// Initialize EmailJS
-onMounted(() => {
-  emailjs.init(USER_ID);
-});
+  const config = useRuntimeConfig()
+  console.log(config.public);
 
 const submitForm = async () => {
   isSubmitting.value = true;
 
+
   try {
-    const result = await emailjs.send(service_id, template_id, {
+    const result = await emailjs.send(
+      config.public.emailjsServiceId,
+      config.public.emailjsTemplateId, {
       name: form.name,
       email: form.email,
       subject: form.subject,
       message: form.message,
       to_email: "fredrickmwaura691@gmail.com"  
-    });
+    },
+      config.public.emailjsUserId
+    );
     console.log('Success:', result);
 
     form.name = '';

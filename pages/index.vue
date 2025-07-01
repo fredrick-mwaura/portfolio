@@ -5,7 +5,6 @@
       <AboutMe />
       <Skills />
       <Education/>
-      <WorkExperience/>
       <Projects />
       <SummarySection />
       <Contact/>

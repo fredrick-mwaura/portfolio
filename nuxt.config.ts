@@ -15,4 +15,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+   public: {
+     emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
+     emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
+     emailjsPublicKey: process.env.EMAILJS_USER_ID
+   }
+  }
 })

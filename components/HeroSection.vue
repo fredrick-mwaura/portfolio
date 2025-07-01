@@ -23,7 +23,7 @@
         <div class="lg:w-1/2 text-center lg:text-left">
           <div class="mb-6">
             <span class="inline-block px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-sm font-medium text-white mb-4 animate-pulse">
-              Available for Hire
+              <a href="#contact">Available for Hire</a>
             </span>
           </div>
           

@@ -94,7 +94,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const isOpen = ref(false)
 const activeItem = ref(0)
 const scrollProgress = ref(0)
-const scrollY = ref(0)
+const scrollY = ref(0) 
 
 const navItems = [
     { name: 'Home', href: '#hero' },

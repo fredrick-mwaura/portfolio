@@ -80,9 +80,24 @@
                 :to="project.demoUrl" 
                 class="group/btn flex-1 px-6 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-2xl hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 text-center"
                 target="_blank"
+                v-if=project.demoUrl
               >
                 <span class="flex items-center justify-center gap-2">
-                  <span>Live Demo</span>
+                  <span >Live Demo</span>
+                  <!-- <span v-else >Demo not available</span> -->
+                  <svg class="w-5 h-5 transition-transform group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </span>
+              </NuxtLink>
+              <NuxtLink 
+                :to="project.demoUrl" 
+                class="group/btn flex-1 px-6 py-4 bg-gradient-to-r from-gray-900 to-white text-gray-700 font-semibold rounded-2xl transform hover:scale-105 hover:shadow-2xl text-center"
+                target="_blank"
+                v-else
+              >
+                <span class="flex items-center justify-center gap-2">
+                  <span class="text-gray-300">Live Demo Not available</span>
                   <svg class="w-5 h-5 transition-transform group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                   </svg>
@@ -231,6 +246,15 @@ const projects = [
     image: "img/portifolio.png",
     demoUrl: "https://fredric-mwaura.vercel.app/",
     githubUrl: "https://github.com/fredrick-mwaura/new-portifolio"
+  },
+    {
+    title: "Event Ticket Booking",
+    shortDesc: "Responsive developer portfolio",
+    description: "A Ticket booking platform where all ticket staffs are catered and ticket tracking with Ticket reference and payment methods intergrated.",
+    technologies: ["Nuxt 3", "Tailwind CSS"],
+    image: "img/Everight.png",
+    demoUrl: "",
+    githubUrl: "https://github.com/mwangiismuthui/zuri_tickets_web"
   }
 ];
 
