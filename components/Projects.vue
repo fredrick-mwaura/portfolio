@@ -280,24 +280,24 @@ const projects = [
     githubUrl: "https://github.com/fredrick-mwaura/new-portifolio"
   },
   {
-    title: "room server",
-    shortDesc: "Responsive developer portfolio",
-    description: "A modern, customizable developer portfolio to showcase past projects made with style and simplicity.",
-    technologies: ["Nuxt 3", "vue 3", "Tailwind CSS"],
+    title: "Room Server",
+    shortDesc: "Live video streaming platform for students.",
+    description: "A platform that enables live video streaming for students, designed to support quick tutoring sessions and collaborative learning to enhance academic performance.",
+    technologies: ["Django", "Agora.js", "CSS", "Tailwind CSS"],
     image: "img/room_servers.png",
-    demoUrl: "", //put to production
+    demoUrl: "", // To be added after deployment
     githubUrl: "https://github.com/fredrick-mwaura/room_servers"
   },
   {
-    title: "Ecommerce store",
-    shortDesc: "ecommerse store for clothing",
-    description: "A modern, customizable developer portfolio to showcase past projects made with style and simplicity.",
-    technologies: ["reactjs ", "Tailwind CSS", "laravel", "JWT", "composer"],
+    title: "E-commerce Store",
+    shortDesc: "Online clothing store with multi-role access.",
+    description: "A dedicated e-commerce platform for clothing sales featuring an admin panel for management, a customer-facing interface for shopping, and a vendor module that allows sellers to upload and manage their products.",
+    technologies: ["React.js", "Tailwind CSS", "Laravel", "spatie", "JWT", "Composer"],
     image: "img/ecommerce.png",
-    demoUrl: "",
-    githubUrl: "https://github.com/fredrick-mwaura/new-portifolio" //update
+    demoUrl: "", // To be added after deployment
+    githubUrl: "https://github.com/fredrick-mwaura/premiumstore"
   },
-    {
+  {
     title: "Event Ticket Booking",
     shortDesc: "Responsive developer portfolio",
     description: "A Ticket booking platform where all ticket staffs are catered and ticket tracking with Ticket reference and payment methods intergrated.",

@@ -16,10 +16,13 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-   public: {
-     emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
-     emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
-     emailjsPublicKey: process.env.EMAILJS_USER_ID
-   }
+
+    emailjsPrivateKey: process.env.NUXT_EmailJS_PRIVATE_KEY,
+
+    public: {
+      emailjsServiceId: process.env.NUXT_PUBLIC_EMAILJS_SERVICE_ID,
+      emailjsTemplateId: process.env.NUXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+      emailjsUserId: process.env.NUXT_PUBLIC_EMAILJS_USER_ID
+    }
   }
 })
