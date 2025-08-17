@@ -15,7 +15,7 @@
       <div class="text-center mb-20">
         <div class="inline-block">
           <h2 class="text-6xl md:text-7xl font-black bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent mb-6 leading-tight">
-            My Projects
+            ---------- My Work ----------
           </h2>
           <div class="w-32 h-2 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 mx-auto rounded-full shadow-lg shadow-purple-500/30"></div>
         </div>
@@ -129,7 +129,7 @@
       <!-- Featured Projects Section -->
       <div class="text-center mb-16">
         <h3 class="text-4xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent mb-4">
-          Featured Projects
+          Featured Projects (collaborations)
         </h3>
         <div class="w-20 h-1 bg-gradient-to-r from-purple-400 to-cyan-400 mx-auto rounded-full"></div>
       </div>

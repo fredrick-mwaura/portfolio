@@ -165,10 +165,12 @@ import { ref, h } from 'vue';
 
 const technicalSkills = ref([
   { name: 'JavaScript / TypeScript', value: 85, display: 85 },
-  { name: 'Vue.js / Nuxt.js', value: 60, display: 60 },
-  { name: 'PHP / Laravel', value: 85, display: 85 },
+  { name: 'Vue.js / Nuxt.js', value: 80, display: 80 },
+  { name: 'PHP / Laravel', value: 90, display: 90 },
   { name: 'React.js', value: 95, display: 95 },
   { name: 'HTML5 / CSS3 / Tailwind', value: 95, display: 95 },
+  {name:'python / Django', value: 70, display: 70},
+  {name:'Nodejs & Express', value: 30, display: 30},
 ]);
 
 // Icon components as render functions
@@ -255,16 +257,17 @@ const ClockIcon = () => h('svg', {
 
 const tools = ref([
   { name: 'Git / GitHub', icon: GitIcon },
-  { name: 'SQL Databases', icon: DatabaseIcon },
+  { name: 'SQL / mongoDB / postgresql', icon: DatabaseIcon },
   { name: 'Docker', icon: DockerIcon },
   { name: 'CI/CD Pipeline', icon: ShieldIcon },
   { name: 'Jest / Testing', icon: TestIcon },
+  { name: 'selemium / autotest', icon: TestIcon },
 ]);
 
 const softSkills = ref([
   { name: 'Team Collaboration', icon: TeamIcon },
   { name: 'Communication', icon: ChatIcon },
-  { name: 'Problem Solving', icon: LightningIcon },
+  { name: 'Problem Solving(agile)', icon: LightningIcon },
   { name: 'Time Management', icon: ClockIcon },
 ]);
 </script>

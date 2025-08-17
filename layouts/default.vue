@@ -11,7 +11,7 @@
           <NuxtLink to="/" class="group relative">
             <div class="absolute -inset-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg blur opacity-30 group-hover:opacity-60 transition duration-300"></div>
             <span class="relative text-3xl font-black bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 uppercase">
-              fredrick mwaura
+              fredrick
             </span>
           </NuxtLink>
           
