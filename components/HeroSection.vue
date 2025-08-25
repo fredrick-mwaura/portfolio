@@ -91,12 +91,19 @@
       </div>
     </div>
     
-    <!-- Scroll indicator -->
-    <div class="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-      <div class="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-        <div class="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
-      </div>
+    <div class="absolute bottom-10 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <img src="/assets/img/icons/scroll.png" alt="">
+      <!-- <div class="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+        <div class="w-2 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
+      </div> -->
     </div>
+
+    <!-- Scroll indicator -->
+    <!-- <div class="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div class="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
+        <div class="w-2 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
+      </div>
+    </div> -->
   </section>
 </template>
 

@@ -20,7 +20,7 @@
             <!-- Section Header -->
             <div class="text-center mb-16">
                 <h2 class="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent mb-6 animate-fade-in-up">
-                    ---------- Education ----------
+                     Education 
                 </h2>
                 <div class="w-32 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto rounded-full animate-fade-in-up animation-delay-300"></div>
                 <p class="mt-6 text-xl text-gray-300 max-w-2xl mx-auto animate-fade-in-up animation-delay-500">

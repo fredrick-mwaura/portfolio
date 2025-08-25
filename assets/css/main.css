@@ -10,8 +10,9 @@
     background-image: url(img/bg-static.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 0.7;
     background-size: cover;
-    background-blend-mode: blur(5px);
+    background-blend-mode: blur(9px);
     background-blend-mode:color-dodge;
     /* -webkit-filter: blur(5px); */
 }

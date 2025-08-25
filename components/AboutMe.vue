@@ -15,7 +15,7 @@
             <!-- Section Header -->
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent">
-                    About Me
+                    About Fredrick Mwaura
                 </h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto rounded-full"></div>
             </div>
@@ -111,8 +111,8 @@
 import { ref, onMounted } from 'vue'
 
 const skills = ref([
-    'JavaScript', 'Vue.js', 'React', 'PHP', 'Laravel', 
-    'Node.js', 'MySQL', 'REST APIs', 'Git'
+    'JavaScript', 'Vue.js', 'Reactjs', 'PHP', 'Laravel', 
+    'Node.js', 'expressJS', 'MySQL', 'REST APIs', 'Git', 'Python', 'Django'
 ])
 
 onMounted(() => {
